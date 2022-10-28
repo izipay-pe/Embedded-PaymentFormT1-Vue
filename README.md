@@ -16,17 +16,13 @@ Esta página explica cómo crear un formulario de pago dinámico desde cero util
 
 ## 1.- Crear el proyecto
 
-* Descargar el proyecto .zip haciendo click [Aquí](https://github.com/izipay-pe/Embedded-PaymentFormT1-Vue/archive/refs/heads/main.zip) o clonarlo desde Git. 
+* Descargar el proyecto .zip haciendo click [Aquí](https://github.com/izipay-pe/PopIn-PaymentFormT1-Vue/archive/refs/heads/main.zip) o clonarlo desde Git. 
  
   ```sh
-  git clone https://github.com/izipay-pe/Embedded-PaymentFormT1-Vue.git
+  git clone https://github.com/izipay-pe/PopIn-PaymentFormT1-Vue.git
   ``` 
 
-* Ingrese a la carpeta raiz del proyecto
-
-  ```bash
-  cd minimal-example
-  ```
+* Ingrese a la carpeta raiz del proyecto.
 
 * A continuación, instale el cliente vue-cli:
 
@@ -42,12 +38,11 @@ Esta página explica cómo crear un formulario de pago dinámico desde cero util
   npm install --save @lyracom/embedded-form-glue
   ```
 
-* Ejecútelo y pruébelo en minimal-example:
+* Ejecútelo y pruébelo con el comando:
 
   ```sh
   npm run serve
   ```
-
   ver el resultado en http://localhost:8080/
 
 ## 2.- Agregar el formulario de pago
@@ -72,7 +67,9 @@ Esta página explica cómo crear un formulario de pago dinámico desde cero util
     const formToken = "DEMO-TOKEN-TO-BE-REPLACED";
   ```
 
-  Puede generar un `formToken` de prueba ingresando al siguiente link: [Aquí](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/api/playground/Charge/CreatePayment/).
+  Puede generar un `formToken` de prueba ingresando a la pestaña `Pruébame` dentro del siguiente link: [Aquí](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/api/playground/Charge/CreatePayment/).
+
+    ![tarjeta](/src/assets/formToken.png)
 
 * Actualice los estilos dentro de src/App.vue style:
 
