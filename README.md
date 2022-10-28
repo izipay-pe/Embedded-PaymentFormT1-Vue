@@ -22,7 +22,11 @@ Esta página explica cómo crear un formulario de pago dinámico desde cero util
   git clone https://github.com/izipay-pe/Embedded-PaymentFormT1-Angular.git
   ``` 
 
-* Ingrese a la carpeta raiz del proyecto.
+* Ingrese a la carpeta raiz del proyecto
+
+  ```bash
+  cd minimal-example
+  ```
 
 * A continuación, instale el cliente vue-cli:
 
