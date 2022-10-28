@@ -52,14 +52,14 @@ ver el resultado en http://localhost:8080/
 
 * Editar en public/index.html en la sección HEAD.
 
-```javascript
-<!-- tema y plugins. debe cargarse en la sección HEAD -->
-<link rel="stylesheet"
-href="~~CHANGE_ME_ENDPOINT~~/static/js/krypton-client/V4.0/ext/classic-reset.css">
-<script
-    src="~~CHANGE_ME_ENDPOINT~~/static/js/krypton-client/V4.0/ext/classic.js">
-</script>
-```
+  ```html
+    <!-- tema y plugins. debe cargarse en la sección HEAD -->
+    <link rel="stylesheet"
+    href="~~CHANGE_ME_ENDPOINT~~/static/js/krypton-client/V4.0/ext/classic-reset.css">
+    <script
+        src="~~CHANGE_ME_ENDPOINT~~/static/js/krypton-client/V4.0/ext/classic.js">
+    </script>
+  ```
 * Edite el componente predeterminado src/app/AddForm.vue ingresando sus credenciales extraidas desde [Requisitos Previos](#Requisitos_Previos). 
 
   ```javascript
