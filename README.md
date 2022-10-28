@@ -16,10 +16,10 @@ Esta página explica cómo crear un formulario de pago dinámico desde cero util
 
 ## 1.- Crear el proyecto
 
-* Descargar el proyecto .zip haciendo click [Aquí](https://github.com/izipay-pe/Embedded-PaymentFormT1-Angular/archive/refs/heads/main.zip) o clonarlo desde Git. 
+* Descargar el proyecto .zip haciendo click [Aquí](https://github.com/izipay-pe/Embedded-PaymentFormT1-Vue/archive/refs/heads/main.zip) o clonarlo desde Git. 
  
   ```sh
-  git clone https://github.com/izipay-pe/Embedded-PaymentFormT1-Angular.git
+  git clone https://github.com/izipay-pe/Embedded-PaymentFormT1-Vue.git
   ``` 
 
 * Ingrese a la carpeta raiz del proyecto
@@ -87,7 +87,7 @@ ver el resultado en http://localhost:8080/
   </style>
   ```
 
-  # 2.1 Interactuar con un endpoint propio
+  ## 2.1 Interactuar con un endpoint propio
 
     Edite el componente predeterminado src/app/AddForm.vue, con el siguiente codigo si quiere interactuar con el formulario de pago, con un endpoint propio.
 
