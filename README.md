@@ -42,13 +42,13 @@ Esta página explica cómo crear un formulario de pago dinámico desde cero util
   npm install --save @lyracom/embedded-form-glue
   ```
 
-Ejecútelo y pruébelo en minimal-example:
+* Ejecútelo y pruébelo en minimal-example:
 
   ```sh
   npm run serve
   ```
 
-ver el resultado en http://localhost:8080/
+  ver el resultado en http://localhost:8080/
 
 ## 2.- Agregar el formulario de pago
 
